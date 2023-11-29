@@ -1,0 +1,8 @@
+D:\OOP\3 курс, 1 семестр\лабы 1\104\SharpException\SharpException\bin\Debug\SharpException.exe.config
+D:\OOP\3 курс, 1 семестр\лабы 1\104\SharpException\SharpException\bin\Debug\SharpException.exe
+D:\OOP\3 курс, 1 семестр\лабы 1\104\SharpException\SharpException\bin\Debug\SharpException.pdb
+D:\OOP\3 курс, 1 семестр\лабы 1\104\SharpException\SharpException\obj\Debug\SharpException.csproj.AssemblyReference.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\104\SharpException\SharpException\obj\Debug\SharpException.csproj.SuggestedBindingRedirects.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\104\SharpException\SharpException\obj\Debug\SharpException.csproj.CoreCompileInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\104\SharpException\SharpException\obj\Debug\SharpException.exe
+D:\OOP\3 курс, 1 семестр\лабы 1\104\SharpException\SharpException\obj\Debug\SharpException.pdb

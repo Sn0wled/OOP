@@ -1,0 +1,8 @@
+D:\OOP\3 курс, 1 семестр\лабы 1\103\SharpMatrix\SharpMatrix\bin\Debug\SharpMatrix.exe.config
+D:\OOP\3 курс, 1 семестр\лабы 1\103\SharpMatrix\SharpMatrix\bin\Debug\SharpMatrix.exe
+D:\OOP\3 курс, 1 семестр\лабы 1\103\SharpMatrix\SharpMatrix\bin\Debug\SharpMatrix.pdb
+D:\OOP\3 курс, 1 семестр\лабы 1\103\SharpMatrix\SharpMatrix\obj\Debug\SharpMatrix.csproj.AssemblyReference.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\103\SharpMatrix\SharpMatrix\obj\Debug\SharpMatrix.csproj.SuggestedBindingRedirects.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\103\SharpMatrix\SharpMatrix\obj\Debug\SharpMatrix.csproj.CoreCompileInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\103\SharpMatrix\SharpMatrix\obj\Debug\SharpMatrix.exe
+D:\OOP\3 курс, 1 семестр\лабы 1\103\SharpMatrix\SharpMatrix\obj\Debug\SharpMatrix.pdb
