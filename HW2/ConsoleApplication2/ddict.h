@@ -21,6 +21,9 @@ public:
 			tmp = tmp->next;
 		}
 	}
+	~ddict() {
+		clear();
+	}
 	void add(string key, T value) {
 		iterator it = begin();
 		for (; it != end(); it++) {
@@ -62,6 +65,20 @@ public:
 			delete tmp;
 		}
 	}
+	void clear() {
+		if (root != NULL) {
+			Node* tmp1 = root, * tmp2 = tmp1->next;
+			while (tmp2 != NULL)
+			{
+				delete tmp1;
+				tmp1 = tmp2;
+				tmp2 = tmp2->next;
+			}
+			delete tmp1;
+			root = NULL;
+			n_end = NULL;
+		}
+	}
 	ddict subdictK(int (*pred)(string)) {
 		ddict result;
 		for (pair p : *this) {
@@ -92,11 +109,57 @@ public:
 		}
 		return result;
 	}
+	ddict operator+(ddict& d) {
+		ddict result(*this);
+		for (pair p : d) {
+			result.add(p);
+		}
+		return result;
+	}
+	ddict operator-(ddict& d) {
+		ddict result(*this);
+		for (pair p : d) {
+			result.del(p.key);
+		}
+		return result;
+	}
+	T& operator[](string key) {
+		for (pair& p : *this) {
+			if (p.key == key) return p.value;
+		}
+		throw "Ключ отсутствует";
+	}
 	iterator begin() {
 		return iterator(root, root);
 	}
 	iterator end() {
 		return iterator(NULL, root);
+	}
+	ddict& operator=(const ddict& d) {
+		ddict tmp(d);
+		swap(tmp.root, this->root);
+		swap(tmp.n_end, this->n_end);
+		return *this;
+	}
+	friend ostream& operator<<(ostream& os, ddict<T>& d) {
+		if (d.root == NULL) {
+			os << "Dictionary is empty" << endl;
+			return os;
+		}
+		for (pair p : d) {
+			os << p.key << " : " << p.value << endl;
+		}
+		return os;
+	}
+	friend ostream& operator<<(ostream& os, ddict<T>&& d) {
+		if (d.root == NULL) {
+			os << "Dictionary is empty" << endl;
+			return os;
+		}
+		for (pair p : d) {
+			os << p.key << " : " << p.value << endl;
+		}
+		return os;
 	}
 };
 
