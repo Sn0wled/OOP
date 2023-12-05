@@ -1,8 +1,0 @@
-D:\OOP\3 курс, 1 семестр\лабы 1\SharpArrays\SharpArrays\bin\Debug\SharpArrays.exe.config
-D:\OOP\3 курс, 1 семестр\лабы 1\SharpArrays\SharpArrays\bin\Debug\SharpArrays.exe
-D:\OOP\3 курс, 1 семестр\лабы 1\SharpArrays\SharpArrays\bin\Debug\SharpArrays.pdb
-D:\OOP\3 курс, 1 семестр\лабы 1\SharpArrays\SharpArrays\obj\Debug\SharpArrays.csproj.AssemblyReference.cache
-D:\OOP\3 курс, 1 семестр\лабы 1\SharpArrays\SharpArrays\obj\Debug\SharpArrays.csproj.SuggestedBindingRedirects.cache
-D:\OOP\3 курс, 1 семестр\лабы 1\SharpArrays\SharpArrays\obj\Debug\SharpArrays.csproj.CoreCompileInputs.cache
-D:\OOP\3 курс, 1 семестр\лабы 1\SharpArrays\SharpArrays\obj\Debug\SharpArrays.exe
-D:\OOP\3 курс, 1 семестр\лабы 1\SharpArrays\SharpArrays\obj\Debug\SharpArrays.pdb

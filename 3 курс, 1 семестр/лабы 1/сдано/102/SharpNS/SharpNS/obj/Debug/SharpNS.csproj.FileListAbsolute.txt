@@ -1,8 +1,0 @@
-D:\OOP\3 курс, 1 семестр\лабы 1\102\SharpNS\SharpNS\bin\Debug\SharpNS.exe.config
-D:\OOP\3 курс, 1 семестр\лабы 1\102\SharpNS\SharpNS\bin\Debug\SharpNS.exe
-D:\OOP\3 курс, 1 семестр\лабы 1\102\SharpNS\SharpNS\bin\Debug\SharpNS.pdb
-D:\OOP\3 курс, 1 семестр\лабы 1\102\SharpNS\SharpNS\obj\Debug\SharpNS.csproj.AssemblyReference.cache
-D:\OOP\3 курс, 1 семестр\лабы 1\102\SharpNS\SharpNS\obj\Debug\SharpNS.csproj.SuggestedBindingRedirects.cache
-D:\OOP\3 курс, 1 семестр\лабы 1\102\SharpNS\SharpNS\obj\Debug\SharpNS.csproj.CoreCompileInputs.cache
-D:\OOP\3 курс, 1 семестр\лабы 1\102\SharpNS\SharpNS\obj\Debug\SharpNS.exe
-D:\OOP\3 курс, 1 семестр\лабы 1\102\SharpNS\SharpNS\obj\Debug\SharpNS.pdb

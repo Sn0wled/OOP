@@ -1,8 +1,0 @@
-D:\OOP\3 курс, 1 семестр\лабы 1\103\SharpIndexer\SharpIndexer\bin\Debug\SharpIndexer.exe.config
-D:\OOP\3 курс, 1 семестр\лабы 1\103\SharpIndexer\SharpIndexer\bin\Debug\SharpIndexer.exe
-D:\OOP\3 курс, 1 семестр\лабы 1\103\SharpIndexer\SharpIndexer\bin\Debug\SharpIndexer.pdb
-D:\OOP\3 курс, 1 семестр\лабы 1\103\SharpIndexer\SharpIndexer\obj\Debug\SharpIndexer.csproj.AssemblyReference.cache
-D:\OOP\3 курс, 1 семестр\лабы 1\103\SharpIndexer\SharpIndexer\obj\Debug\SharpIndexer.csproj.SuggestedBindingRedirects.cache
-D:\OOP\3 курс, 1 семестр\лабы 1\103\SharpIndexer\SharpIndexer\obj\Debug\SharpIndexer.csproj.CoreCompileInputs.cache
-D:\OOP\3 курс, 1 семестр\лабы 1\103\SharpIndexer\SharpIndexer\obj\Debug\SharpIndexer.exe
-D:\OOP\3 курс, 1 семестр\лабы 1\103\SharpIndexer\SharpIndexer\obj\Debug\SharpIndexer.pdb
