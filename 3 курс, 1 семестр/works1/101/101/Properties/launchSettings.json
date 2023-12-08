@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "101": {
+      "commandName": "Project",
+      "commandLineArgs": "first second 345"
+    }
+  }
+}
