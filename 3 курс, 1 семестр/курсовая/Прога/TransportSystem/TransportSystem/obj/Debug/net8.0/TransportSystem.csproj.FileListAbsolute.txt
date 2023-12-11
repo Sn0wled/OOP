@@ -1,0 +1,14 @@
+D:\c++ тесты\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\TransportSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\c++ тесты\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\TransportSystem.AssemblyInfoInputs.cache
+D:\c++ тесты\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\TransportSystem.AssemblyInfo.cs
+D:\c++ тесты\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\TransportSystem.csproj.CoreCompileInputs.cache
+D:\c++ тесты\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\TransportSystem.exe
+D:\c++ тесты\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\TransportSystem.deps.json
+D:\c++ тесты\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\TransportSystem.runtimeconfig.json
+D:\c++ тесты\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\TransportSystem.dll
+D:\c++ тесты\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\TransportSystem.pdb
+D:\c++ тесты\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\TransportSystem.dll
+D:\c++ тесты\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\refint\TransportSystem.dll
+D:\c++ тесты\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\TransportSystem.pdb
+D:\c++ тесты\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\TransportSystem.genruntimeconfig.cache
+D:\c++ тесты\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ref\TransportSystem.dll
