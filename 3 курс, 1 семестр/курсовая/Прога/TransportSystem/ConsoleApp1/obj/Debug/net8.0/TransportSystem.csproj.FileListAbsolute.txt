@@ -12,3 +12,18 @@ D:\c++ тесты\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\refint\TransportSyste
 D:\c++ тесты\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\TransportSystem.pdb
 D:\c++ тесты\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\TransportSystem.genruntimeconfig.cache
 D:\c++ тесты\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ref\TransportSystem.dll
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TransportSystem\ConsoleApp1\obj\Debug\net8.0\TransportSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TransportSystem\ConsoleApp1\obj\Debug\net8.0\TransportSystem.AssemblyInfoInputs.cache
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TransportSystem\ConsoleApp1\obj\Debug\net8.0\TransportSystem.AssemblyInfo.cs
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TransportSystem\ConsoleApp1\obj\Debug\net8.0\TransportSystem.csproj.CoreCompileInputs.cache
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TransportSystem\ConsoleApp1\obj\Debug\net8.0\TransportSystem.sourcelink.json
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TransportSystem\ConsoleApp1\obj\Debug\net8.0\TransportSystem.dll
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TransportSystem\ConsoleApp1\obj\Debug\net8.0\refint\TransportSystem.dll
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TransportSystem\ConsoleApp1\obj\Debug\net8.0\TransportSystem.pdb
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TransportSystem\ConsoleApp1\bin\Debug\net8.0\TransportSystem.exe
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TransportSystem\ConsoleApp1\bin\Debug\net8.0\TransportSystem.deps.json
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TransportSystem\ConsoleApp1\bin\Debug\net8.0\TransportSystem.runtimeconfig.json
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TransportSystem\ConsoleApp1\bin\Debug\net8.0\TransportSystem.dll
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TransportSystem\ConsoleApp1\bin\Debug\net8.0\TransportSystem.pdb
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TransportSystem\ConsoleApp1\obj\Debug\net8.0\TransportSystem.genruntimeconfig.cache
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TransportSystem\ConsoleApp1\obj\Debug\net8.0\ref\TransportSystem.dll

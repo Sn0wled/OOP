@@ -6,7 +6,7 @@ class Programm
     static TransportSystem system = new TransportSystem();
     public static void Main(string[] args)
     {
-        system.TestUser();
+        /*system.TestUser();
         while (user is null) {
             LogInMenu();
             Menu.LogInSuccess(user!);
@@ -14,7 +14,11 @@ class Programm
             {
                 AdminMenu(admin);
             }
-        }
+        }*/
+        Point a = new(1, 2);
+        Point b = new(1, 2);
+        Console.WriteLine(a.Equals( b));
+
     }
 
     static void LogInMenu()
