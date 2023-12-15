@@ -1,35 +1,57 @@
 ﻿using System.Xml.Linq;
 
-namespace TransportManagementSystem {
-    internal class Transport {
+namespace TransportManagementSystem
+{
+    internal class Transport
+    {
         Coordinates coords;
-        TransportState state;
+        bool hasDriver;
         int id;
         string model;
-        public Transport( Coordinates coords, string model, int id ) {
+        public Transport(Coordinates coords, string model, int id)
+        {
             this.coords = coords;
-            state = TransportState.Free;
+            hasDriver = false;
             this.id = id;
             this.model = model;
         }
-        public void ShowInfo( ) {
+
+        public bool IsAt(WayPoint point)
+        {
+            return point.HasCoords(coords.Longtitude, coords.Latitude);
+        }
+
+        public void Drive()
+        {
+            Console.WriteLine("Введте координаты места назначения:");
+            coords.Longtitude = Programm.EnterDouble("Долгота: ");
+            coords.Latitude = Programm.EnterDouble("Широта: ");
+        }
+
+        public void SetDriver() { hasDriver = true; }
+        public void ShowInfo()
+        {
             Console.WriteLine($"ID: {id}");
             Console.WriteLine($"Модель: {model}");
             Console.WriteLine($"Координаты:");
             Console.WriteLine($"Широта: {coords.Longtitude}, Долгота: {coords.Latitude}");
-            string sState = state == TransportState.Free? "Свободен" : "Занят";
+            string sState = hasDriver ? "Занят" : "Свободен";
             Console.WriteLine($"Состояние: {sState}");
         }
-        public bool HasID(int id) {
+        public bool HasID(int id)
+        {
             return this.id == id;
         }
-        public void ChangeData( ) {
-            while (true) {
+        public void ChangeData()
+        {
+            while (true)
+            {
                 Console.WriteLine("Выберите действие:");
                 Console.WriteLine("1. Изменить модель");
                 Console.WriteLine("0. Вернуться назад");
                 string s = Console.ReadLine()!;
-                switch (s) {
+                switch (s)
+                {
                     case "1":
                         Console.Write("Введине новую модель: ");
                         model = Console.ReadLine()!;
@@ -42,10 +64,10 @@ namespace TransportManagementSystem {
                 }
             }
         }
+        public bool HasDriver()
+        {
+            return hasDriver;
+        }
     }
 }
 
-enum TransportState {
-    Occupied,
-    Free
-}

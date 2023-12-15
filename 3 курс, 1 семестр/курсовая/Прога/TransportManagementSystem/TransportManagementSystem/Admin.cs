@@ -14,6 +14,7 @@
             string s;
             while (true)
             {
+                Console.WriteLine();
                 Console.WriteLine("Выберите действие:");
                 Console.WriteLine("1. Просмотр всех пользователей");
                 Console.WriteLine("2. Выбрать пользователя по id");
@@ -26,6 +27,7 @@
                 Console.WriteLine("9. Выбрать транспорт по id");
                 Console.WriteLine("0. Выйти");
                 s = Console.ReadLine()!;
+                Console.WriteLine();
                 switch (s)
                 {
                     case "1":
@@ -51,7 +53,7 @@
                         break;
                     case "7":
                         tMS.GetTransportSystem().ShowTransport();
-                            break;
+                        break;
                     case "8":
                         tMS.GetTransportSystem().AddTransport();
                         break;

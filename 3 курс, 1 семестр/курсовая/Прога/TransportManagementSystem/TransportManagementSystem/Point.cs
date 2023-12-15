@@ -1,25 +1,40 @@
-﻿namespace TransportManagementSystem {
-    internal class Point {
-        int id;
+﻿namespace TransportManagementSystem
+{
+    internal class Point
+    {
+        protected int id;
         protected Coordinates coords;
-        string name, description;
-        public Point(Coordinates coords, string name, string description, int id) {
+        protected string name, description;
+        public Point(Coordinates coords, string name, string description, int id)
+        {
             this.coords = coords;
             this.name = name;
             this.description = description;
             this.id = id;
         }
-        public void ShowPoint( ) {
+
+        public Point(Point p)
+        {
+            id = p.id;
+            name = p.name;
+            description = p.description;
+            coords = new Coordinates(p.coords);
+        }
+        public void ShowInfo()
+        {
             Console.WriteLine($"ID точки: {id}");
             Console.WriteLine($"Название: {name}");
             Console.WriteLine($"Описание: {description}");
             Console.WriteLine($"Широта: {coords.Longtitude}, Долгота: {coords.Latitude}");
         }
-        public bool HasID(int id) {
+        public bool HasID(int id)
+        {
             return this.id == id;
         }
-        public void ChangeData( ) {
-            while (true) {
+        public void ChangeData()
+        {
+            while (true)
+            {
                 Console.WriteLine("Выберите действие:");
                 Console.WriteLine("1. Изменить название");
                 Console.WriteLine("2. Изменить описание");
@@ -27,9 +42,8 @@
                 Console.WriteLine("4. Изменить долготу");
                 Console.WriteLine("0. Вернуться назад");
                 string s = Console.ReadLine()!;
-                string temp;
-                double tempDouble;
-                switch (s) {
+                switch (s)
+                {
                     case "1":
                         Console.Write("Введине новое название: ");
                         name = Console.ReadLine()!;
@@ -39,20 +53,10 @@
                         description = Console.ReadLine()!;
                         break;
                     case "3":
-                        Console.Write("Введине новую широту: ");
-                        temp = Console.ReadLine()!;
-                        if (double.TryParse(temp, out tempDouble))
-                            coords.Longtitude = tempDouble;
-                        else
-                            Console.WriteLine("Введено не число");
+                        coords.Longtitude = Programm.EnterInt("Введине новую широту: ");
                         break;
                     case "4":
-                        Console.Write("Введине новую долготу: ");
-                        temp = Console.ReadLine()!;
-                        if (double.TryParse(temp, out tempDouble))
-                            coords.Latitude = tempDouble;
-                        else
-                            Console.WriteLine("Введено не число");
+                        coords.Latitude = Programm.EnterInt("Введине новую долготу: ");
                         break;
                     case "0":
                         return;

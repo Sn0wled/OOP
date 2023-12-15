@@ -1,21 +1,28 @@
-﻿namespace TransportManagementSystem {
-    internal class PointsSystem {
+﻿namespace TransportManagementSystem
+{
+    internal class PointsSystem
+    {
         int counter = 0;
         List<Point> points;
-        public PointsSystem() {
+        public PointsSystem()
+        {
             points = new List<Point>();
         }
-        public void ShowPoints( ) {
-            if (points.Count == 0) {
+        public void ShowPoints()
+        {
+            if (points.Count == 0)
+            {
                 Console.WriteLine("Список точек пуст");
                 return;
             }
-            foreach( var point in points ) {
-                point.ShowPoint();
+            foreach (var point in points)
+            {
+                point.ShowInfo();
                 Console.WriteLine();
             }
         }
-        public void AddPoint( ) {
+        public void AddPoint()
+        {
             string name, description, sLatitude, sLongtitude;
             double latitude, longitude;
             Console.WriteLine("Добавление новой точки");
@@ -25,14 +32,16 @@
             description = Console.ReadLine()!;
             Console.Write("Введите широту: ");
             sLatitude = Console.ReadLine()!;
-            while (!double.TryParse(sLatitude, out latitude)) {
+            while (!double.TryParse(sLatitude, out latitude))
+            {
                 Console.Write("Введите широту: ");
                 Console.WriteLine("Неверный ввод");
                 sLatitude = Console.ReadLine()!;
             }
             Console.Write("Введите долготу: ");
             sLongtitude = Console.ReadLine()!;
-            while (!double.TryParse(sLongtitude, out longitude)) {
+            while (!double.TryParse(sLongtitude, out longitude))
+            {
                 Console.WriteLine("Неверный ввод");
                 Console.Write("Введите долготу: ");
                 sLatitude = Console.ReadLine()!;
@@ -40,33 +49,37 @@
             points.Add(new Point(new Coordinates(longitude, latitude), name, description, counter++));
             Console.WriteLine("Точка успешно добавлена");
         }
-        public void FindPoint( ) {
-            Console.WriteLine("Введите id точки");
-            string sID = Console.ReadLine()!;
-            int id;
-            while (!int.TryParse(sID, out id)) {
-                Console.WriteLine("Введено не число");
-                Console.WriteLine("Введите id точки");
-                sID = Console.ReadLine()!;
-            }
+
+        public void FindPoint()
+        {
+            int id = Programm.EnterInt("Введите id точки");
             Point? point = points.Find(x => x.HasID(id));
-            if (point == null) { 
+            if (point == null)
+            {
                 Console.WriteLine("Точка не найдена");
                 return;
             }
-            else {
+            else
+            {
                 FoundPointMenu(point);
             }
         }
-        public void FoundPointMenu(Point point) {
-            while (true) {
-                point.ShowPoint();
+        public Point? FindPoint(int id)
+        {
+            return points.Find(x => x.HasID(id));
+        }
+        public void FoundPointMenu(Point point)
+        {
+            while (true)
+            {
+                point.ShowInfo();
                 Console.WriteLine("Выбеирте действие:");
                 Console.WriteLine("1. Удалить точку");
                 Console.WriteLine("2. Изменить данные точки");
                 Console.WriteLine("0. Вернуться назад");
                 string s = Console.ReadLine()!;
-                switch (s) {
+                switch (s)
+                {
                     case "1":
                         points.Remove(point);
                         return;

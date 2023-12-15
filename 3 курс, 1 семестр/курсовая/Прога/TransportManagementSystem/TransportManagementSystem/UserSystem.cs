@@ -4,37 +4,71 @@
     {
         List<User> users = new();
         int counter = 0;
-        // надо поменять
+        public void AddTestUsers()
+        {
+            users.Add(new Admin(counter++, "admin", "admin", "admin", "admin", "admin", 20, Gender.Male));
+            users.Add(new Dispatcher(counter++, "123", "123", "123", "123", "123", 20, Gender.Male));
+            users.Add(new Driver(counter++, "321", "321", "321", "321", "321", 20, Gender.Male));
+        }
+
+        public Driver? FindDriver(int id)
+        {
+            return (Driver?)users.Find(x => x is Driver && x.HasID(id));
+        }
+
         public void AddUser()
         {
-            string fName, lName, pName, login, password, sAge, sGender, post;
+            string fName, lName, pName, login, password, sGender, post;
             int age;
             Gender gender;
             User user;
             Console.WriteLine("Добавление нового пользователя");
-            Console.Write("Введите логин пользователя: ");
-            login = Console.ReadLine()!;
+            while (true)
+            {
+                Console.Write("Введите логин пользователя: ");
+                login = Console.ReadLine()!;
+                if (login.Length >= 5) break;
+                Console.WriteLine("Логин должен содержать не менее 5 символов");
+            }
             while (users.Find(x => x.CheckLogin(login)) is not null)
             {
                 Console.Write("Логин занят. Введите другой: ");
                 login = Console.ReadLine()!;
             }
-            Console.Write("Введите пароль пользователя: ");
-            password = Console.ReadLine()!;
-            Console.Write("Введите имя пользователя: ");
-            fName = Console.ReadLine()!;
-            Console.Write("Введите фамилию пользователя: ");
-            lName = Console.ReadLine()!;
+
+            while (true)
+            {
+                Console.Write("Введите пароль пользователя: ");
+                password = Console.ReadLine()!;
+                if (password.Length >= 5) break;
+                Console.WriteLine("Пароль должен содержать не менее 5 символов");
+            }
+
+            while (true)
+            {
+                Console.Write("Введите имя пользователя: ");
+                fName = Console.ReadLine()!;
+                if (fName.Length != 0) break;
+                Console.WriteLine("Имя не может быть пустым");
+            }
+
+            while (true)
+            {
+                Console.Write("Введите фамилию пользователя: ");
+                lName = Console.ReadLine()!;
+                if (lName.Length != 0) break;
+                Console.WriteLine("Фамилия не может быть пустой");
+            }
+
             Console.Write("Введите отчество пользователя: ");
             pName = Console.ReadLine()!;
-            while (true) 
+            while (true)
             {
-                Console.Write("Введите возраст пользователя: ");
-                sAge = Console.ReadLine()!;
-                if (int.TryParse(sAge, out age))
-                    break;
+                age = Programm.EnterInt("Введите возраст пользователя: ");
+                if (age < 18)
+                    Console.WriteLine("Пользователю не может быть меньше 18 лет");
                 else
-                    Console.WriteLine("Ошибка ввода. Введено не число.");
+                    break;
             }
             while (true)
             {
@@ -53,7 +87,7 @@
                 else
                     Console.WriteLine("Ошибка");
             }
-            while(true)
+            while (true)
             {
                 Console.WriteLine("Введите должность: ");
                 Console.WriteLine("1. Администратор");
@@ -88,39 +122,49 @@
         }
         public void ShowAllUsers()
         {
-            foreach (var user in users)
-                user.ShowInfo();
+            if (users.Count == 0)
+                Console.WriteLine("Список пуст");
+            else
+                foreach (var user in users)
+                    user.ShowInfo();
         }
 
-        public void FindUser() {
-            Console.WriteLine("Введите id пользователя");
-            string sID = Console.ReadLine()!;
-            int id;
-            while (!int.TryParse(sID, out id)) {
-                Console.WriteLine("Введено не число");
-                Console.WriteLine("Введите id пользователя");
-                sID = Console.ReadLine()!;
-            }
+        public void FindUser()
+        {
+            int id = Programm.EnterInt("Введите id пользователя");
             User? user = users.Find(x => x.HasID(id));
-            if (user == null) {
-                Console.WriteLine("пользователь не найден");
+            if (user == null)
+            {
+                Console.WriteLine("Пользователь не найден");
                 return;
-            } else {
+            }
+            else
+            {
                 FoundUserMenu(user);
             }
         }
 
-        public void FoundUserMenu(User user ) {
-            while (true) {
+        public void FoundUserMenu(User user)
+        {
+            while (true)
+            {
                 user.ShowInfo();
+                Console.WriteLine();
                 Console.WriteLine("Выбеирте действие:");
                 Console.WriteLine("1. Удалить пользователя");
                 Console.WriteLine("2. Изменить данные пользователя");
                 Console.WriteLine("0. Вернуться назад");
                 string s = Console.ReadLine()!;
-                switch (s) {
+                switch (s)
+                {
                     case "1":
-                        users.Remove(user);
+                        if (users.Contains(user))
+                        {
+                            Console.WriteLine("Вы не можете удалить сами себя");
+                            break;
+                        }
+                        else
+                            users.Remove(user);
                         return;
                     case "2":
                         user.ChangeData();
@@ -131,6 +175,21 @@
                         Console.WriteLine("Ошибка ввода");
                         break;
                 }
+            }
+        }
+
+        public void ShowDrivers()
+        {
+            Console.WriteLine("Список водителей:");
+            int c = 0;
+            foreach (User user in users)
+            {
+                if (user is Driver)
+                {
+                    user.ShowInfo();
+                    c++;
+                }
+                if (c == 0) Console.WriteLine("Список пуст");
             }
         }
     }

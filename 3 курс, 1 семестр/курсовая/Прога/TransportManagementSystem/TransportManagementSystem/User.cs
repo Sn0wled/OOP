@@ -20,6 +20,7 @@ namespace TransportManagementSystem
         public abstract void Menu(TransportManagementSystem tMS);
         public virtual void ShowInfo()
         {
+            Console.WriteLine();
             string gender = base.gender == Gender.Male ? "м" : "ж";
             string post = this is Admin ? "Администратор" : "Unknown";
             Console.WriteLine($"ID: {id}");
