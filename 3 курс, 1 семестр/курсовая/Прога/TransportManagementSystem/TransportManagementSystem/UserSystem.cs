@@ -4,11 +4,12 @@
     {
         List<User> users = new();
         int counter = 0;
-        public void AddTestUsers()
+
+        public void Test()
         {
-            users.Add(new Admin(counter++, "admin", "admin", "admin", "admin", "admin", 20, Gender.Male));
-            users.Add(new Dispatcher(counter++, "123", "123", "123", "123", "123", 20, Gender.Male));
-            users.Add(new Driver(counter++, "321", "321", "321", "321", "321", 20, Gender.Male));
+            users.Add(new Admin(counter++, "111", "111", "111", "111", "111", 20, Gender.Male));
+            users.Add(new Dispatcher(counter++, "222", "222", "222", "222", "222", 20, Gender.Male));
+            users.Add(new Driver(counter++, "333", "333", "333", "333", "333", 20, Gender.Male));
         }
 
         public Driver? FindDriver(int id)

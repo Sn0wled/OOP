@@ -37,7 +37,7 @@ namespace TransportManagementSystem
 
         public WayPoint? FindFirstNotMarked()
         {
-            return wayPoints.Find(x => x.IsMarked());
+            return wayPoints.Find(x => !x.IsMarked());
         }
 
         public void ShowPoints()

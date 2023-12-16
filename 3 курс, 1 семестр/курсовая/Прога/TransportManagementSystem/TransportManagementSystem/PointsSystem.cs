@@ -8,6 +8,14 @@
         {
             points = new List<Point>();
         }
+
+        public void Test()
+        {
+            points.Add(new Point(new Coordinates(1, 1), "point1", "", counter++));
+            points.Add(new Point(new Coordinates(1, 1), "point2", "", counter++));
+            points.Add(new Point(new Coordinates(1, 1), "point3", "", counter++));
+        }
+
         public void ShowPoints()
         {
             if (points.Count == 0)
