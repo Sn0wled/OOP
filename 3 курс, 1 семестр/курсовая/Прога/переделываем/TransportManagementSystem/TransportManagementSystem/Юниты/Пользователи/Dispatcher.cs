@@ -30,6 +30,7 @@
                 switch (s)
                 {
                     case "0":
+                        tms.LogOut();
                         break;
                     case "1":
                         tms.PointsSystem.ShowUnits();
@@ -49,12 +50,53 @@
                     case "6":
                         tms.RouteSystem.SelectUnit(tms);
                         break;
+                    case "7":
+                        SetTransport(tms);
+                        break;
                     default:
                         Program.ErrorInput();
                         break;
                 }
             }
 
+        }
+
+        public void SetTransport(TransportManagementSystem tms)
+        {
+            tms.UserSystem.ShowDrivers();
+            int id = Program.EnterInt("Введите id водителя: ");
+            Driver? driver = tms.UserSystem.FindDriver(id);
+            if (driver != null)
+            {
+                if (driver.HasTranport())
+                {
+                    Console.Clear();
+                    Console.WriteLine("У водителя уже есть транспорт");
+                }
+                else
+                {
+                    tms.TransportSystem.ShowUnits();
+                    int tid = Program.EnterInt("Введите id транспорта: ");
+                    Transport? transport = (Transport?)tms.TransportSystem.FindUnit(tid);
+                    if (transport != null)
+                    {
+                        driver.Transport = transport;
+                        transport.HasDriver = true;
+                        Console.Clear();
+                        Console.WriteLine("Транспорт назначен");
+                    }
+                    else
+                    {
+                        Console.Clear();
+                        Console.WriteLine("Транспорт с указанным id не найден");
+                    }
+                }
+            }
+            else
+            {
+                Console.Clear();
+                Console.WriteLine("Водитель с указанным id не найден");
+            }
         }
     }
 }

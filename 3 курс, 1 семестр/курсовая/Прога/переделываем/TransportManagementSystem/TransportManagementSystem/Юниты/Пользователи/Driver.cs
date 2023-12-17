@@ -5,7 +5,8 @@
         public Route? Route { get; set; }
         public Transport? Transport { get; set; }
         public Driver(string login, string password, string fName, string lName, string pName, int age)
-            : base(login, password, fName, lName, pName, age) { 
+            : base(login, password, fName, lName, pName, age)
+        {
             Route = null;
         }
 
@@ -21,6 +22,11 @@
 
         public bool SetRoute(Route route)
         {
+            if (Transport is null)
+            {
+                Console.WriteLine("У данного водителя нет транспорта");
+                return false;
+            }
             if (Route != null)
             {
                 Console.WriteLine("У данного водителя уже есть маршрут");
@@ -60,6 +66,10 @@
                         else
                         {
                             Route.Show();
+                            Console.WriteLine();
+                            Console.WriteLine("Нажмите любую кнопку");
+                            Console.ReadKey();
+                            Console.Clear();
                         }
                         break;
                     case "2":
@@ -67,13 +77,19 @@
                         {
                             Console.Clear();
                             Console.WriteLine("У вас нет маршрута");
-                        } else
+                        }
+                        else
                         {
                             WayPoint? wp = Route!.NextWayPoint();
                             if (wp != null)
                             {
                                 wp.ShowWayPoint();
-                            } else
+                                Console.WriteLine();
+                                Console.WriteLine("Нажмите любую кнопку");
+                                Console.ReadKey();
+                                Console.Clear();
+                            }
+                            else
                             {
                                 Console.WriteLine("Последний пункт маршрута достигнут.");
                                 Console.WriteLine("Завершите маршрут.");
@@ -139,6 +155,11 @@
                     Console.WriteLine("Вы не достигли последнего пункта маршрута");
                 }
             }
+        }
+
+        public bool HasTranport()
+        {
+            return Transport != null;
         }
 
         public void Drive()

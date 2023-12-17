@@ -23,7 +23,7 @@ namespace TransportManagementSystem
 
         public bool IsAtPoint(Point p)
         {
-            return p.Coords.Equals(Coords);
+            return p.Coords.IsEqual(Coords);
         }
 
         public override void ShowUnit()

@@ -28,6 +28,7 @@
                 Console.WriteLine("9. Выбрать транспорт по id");
                 Console.WriteLine("0. Выйти из системы");
                 s = Console.ReadLine()!;
+                Console.Clear();
                 switch (s)
                 {
                     // Выйти из системы

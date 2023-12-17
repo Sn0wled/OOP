@@ -25,13 +25,13 @@ namespace TransportManagementSystem
 
         public static int EnterInt(string message)
         {
-            Console.WriteLine(message);
+            Console.Write(message);
             string sNum = Console.ReadLine()!;
             int num;
             while (!int.TryParse(sNum, out num))
             {
                 Console.WriteLine("Введено не целое число");
-                Console.WriteLine(message);
+                Console.Write(message);
                 sNum = Console.ReadLine()!;
             }
             return num;
