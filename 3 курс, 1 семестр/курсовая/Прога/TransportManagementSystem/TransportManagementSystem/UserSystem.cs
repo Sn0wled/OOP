@@ -151,7 +151,7 @@
             {
                 user.ShowInfo();
                 Console.WriteLine();
-                Console.WriteLine("Выбеирте действие:");
+                Console.WriteLine("Выберите действие:");
                 Console.WriteLine("1. Удалить пользователя");
                 Console.WriteLine("2. Изменить данные пользователя");
                 Console.WriteLine("0. Вернуться назад");

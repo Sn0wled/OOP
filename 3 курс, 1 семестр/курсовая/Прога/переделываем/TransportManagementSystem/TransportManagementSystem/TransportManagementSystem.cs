@@ -2,32 +2,65 @@
 {
     internal class TransportManagementSystem
     {
-        UserSystem userSystem = new();
-        PointsSystem pointsSystem = new();
-        TransportSystem transportSystem = new();
-        RouteSystem routeSystem = new();
-        User? user;
-        public UserSystem GetUserSystem() => userSystem;
-        public PointsSystem GetPointsSystem() => pointsSystem;
-        public TransportSystem GetTransportSystem() => transportSystem;
-        public RouteSystem GetRouteSystem() => routeSystem;
+        public UserSystem UserSystem { get; init; }
+        public PointsSystem PointsSystem { get; init; }
+        public TransportSystem TransportSystem { get; init; }
+        public RouteSystem RouteSystem { get; init; }
+        public User? User { get; set; }
 
+        public TransportManagementSystem()
+        {
+            UserSystem = new UserSystem();
+            PointsSystem = new PointsSystem();
+            TransportSystem = new TransportSystem();
+            RouteSystem = new RouteSystem();
+        }
+
+        // Вход в систему
         public void LogIn()
         {
-            Console.Clear();
-            string login, password;
-            Console.Write("Введите логин: ");
-            login = Console.ReadLine()!;
-            Console.Write("Введите пароль: ");
-            password = Console.ReadLine()!;
-            user = userSystem.TryLogIn(login, password);
-            Console.Clear();
-            if (user is null)
-                Console.WriteLine("Неправильный логин или пароль");
-            else
-                user.Menu(this);
-
+            while (User == null)
+            {
+                User = UserSystem.LogIn();
+                if (User != null)
+                {
+                    Console.WriteLine("Вы успешно вошли");
+                    User.Menu(this);
+                    break;
+                }
+                else
+                    Console.WriteLine("Неправильный логин или пароль");
+            }
         }
-        public void LogOut() => user = null;
+
+        public void EnterSystem()
+        {
+            string s = "";
+            while (s != "0")
+            {
+                Console.Clear();
+                Console.WriteLine("Выберите действие:");
+                Console.WriteLine("1. Войти в систему");
+                Console.WriteLine("0. Закрыть программу");
+                s = Console.ReadLine()!;
+                switch (s)
+                {
+                    case "0":
+                        break;
+                    case "1":
+                        LogIn();
+                        break;
+                    default:
+                        Program.ErrorInput();
+                        break;
+                }
+            }
+        }
+
+        // Выход из системы
+        public void LogOut()
+        {
+            User = null;
+        }
     }
 }

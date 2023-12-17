@@ -5,7 +5,6 @@
         public static void Main(string[] args)
         {
             TransportManagementSystem tMS = new TransportManagementSystem();
-            tMS.GetUserSystem().AddTestUsers();
             while (true)
             {
                 Console.WriteLine("1. Войти");

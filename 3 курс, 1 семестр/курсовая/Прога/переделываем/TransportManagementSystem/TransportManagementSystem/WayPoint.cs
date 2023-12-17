@@ -1,36 +1,49 @@
 ﻿namespace TransportManagementSystem
 {
-    internal class WayPoint : Point
+    internal class WayPoint
     {
-        bool checkbox;
+        public bool Checkbox {  get; set; }
+
+        public Point Point { get; set; }
+
         public WayPoint(Point point)
-            : base(point)
         {
-            checkbox = false;
+            this.Point = point;
+            Checkbox = false;
         }
-        public void ShowPoint()
+
+        public void ShowWayPoint()
         {
-            string state = checkbox == true ? "Пройдена" : "Не пройдена";
-            Console.WriteLine($"Название: {name}");
-            Console.WriteLine($"Широта: {coords.Longitude}, Долгота: {coords.Latitude}");
+            string state = Checkbox == true ? "Пройдена" : "Не пройдена";
             Console.WriteLine($"Состояние: {state}");
+            Point.ShowUnit();
+            return;
         }
-
-        public bool HasCoords(double longitude, double latitude)
-        {
-            return coords.Longitude == longitude && coords.Latitude == latitude;
-        }
-
-        public bool IsMarked() { return checkbox; }
 
         public void Mark()
         {
-            checkbox = true;
+            Checkbox = true;
         }
 
-        public void Unmark()
+        public void UnMark()
         {
-            checkbox = false;
+            Checkbox = false;
+        }
+
+        public void ReplacePoint(TransportManagementSystem tms)
+        {
+            tms.PointsSystem.ShowUnits();
+            int id = Program.EnterInt("Введите id заменяющего пункта");
+            Point? point = (Point?)tms.PointsSystem.FindUnit(id);
+            Console.Clear();
+            if (point == null)
+            {
+                Console.WriteLine("Пункт с данным id не найден");
+            } else
+            {
+                this.Point = point;
+                Console.WriteLine("Пункт заменен");
+            }
         }
     }
 }

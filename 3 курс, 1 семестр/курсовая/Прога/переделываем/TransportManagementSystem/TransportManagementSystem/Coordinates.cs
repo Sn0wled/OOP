@@ -2,43 +2,32 @@
 {
     internal class Coordinates
     {
-        protected double longitude;
-        protected double latitude;
+        public double Longitude { get; set; }
+        public double Latitude { get; set; }
 
         public Coordinates(double longitude, double latitude)
         {
-            this.longitude = longitude;
-            this.latitude = latitude;
+            Longitude = longitude;
+            Latitude = latitude;
         }
 
-        public double Longitude
+        public void Show()
         {
-            get
-            {
-                return longitude;
-            }
-            set
-            {
-                longitude = value;
-            }
+            Console.WriteLine($"Широта: {Latitude}, Долгота {Longitude}");
         }
 
-        public double Latitude
+        public static Coordinates CreateCoords()
         {
-            get
-            {
-                return latitude;
-            }
-            set
-            {
-                latitude = value;
-            }
+            double latitude, longitude;
+            Console.WriteLine("Введите координаты");
+            latitude = Program.EnterDouble("Введите широту: ");
+            longitude = Program.EnterDouble("Введите долготу: ");
+            return new Coordinates(longitude, latitude);
         }
 
-        public Coordinates(Coordinates c)
+        public bool IsEqual(Coordinates c)
         {
-            longitude = c.longitude;
-            latitude = c.latitude;
+            return c.Longitude == Longitude && c.Latitude == Latitude;
         }
     }
 }
