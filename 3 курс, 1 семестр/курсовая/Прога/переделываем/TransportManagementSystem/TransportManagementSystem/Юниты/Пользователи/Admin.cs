@@ -61,7 +61,7 @@
                         break;
                     // Выбрать пользователя по id
                     case "7":
-                        tms.UserSystem.SelectUnit();
+                        tms.UserSystem.SelectUnit(tms);
                         break;
                     // Выбрать пункт по id
                     case "8":

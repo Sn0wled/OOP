@@ -3,7 +3,6 @@ namespace TransportManagementSystem
 {
     internal class UserSystem : UnitSystem
     {
-
         public override bool AddUnit(Unit unit)
         {
             if (unit is User user && IsLoginFree(user.Login)) base.AddUnit(unit);
@@ -114,6 +113,32 @@ namespace TransportManagementSystem
         {
             if (FindUnit(id) is Driver driver) return driver;
             return null;
+        }
+
+        public void SetTransportForDriver(TransportSystem ts)
+        {
+            int id = Program.EnterInt("Введите id водителя: ");
+            Driver? driver = FindDriver(id);
+            Console.Clear();
+            if (driver is null)
+            {
+                Console.WriteLine("Пользователь не найден\n");
+            }
+            else
+            {
+                if (driver.HasTranport())
+                {
+                    Console.WriteLine("У данного водителя уже есть транспорт");
+                }
+                else
+                {
+                    Transport? transport = ts.SetDriver();
+                    if (transport is not null) {
+                        driver.Transport = transport;
+                        Console.WriteLine("Транспорт назначен");
+                    }
+                }
+            }
         }
     }
 }

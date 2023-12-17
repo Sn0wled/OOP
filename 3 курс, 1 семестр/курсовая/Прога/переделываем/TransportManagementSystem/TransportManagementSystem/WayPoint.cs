@@ -2,9 +2,9 @@
 {
     internal class WayPoint
     {
-        public bool Checkbox {  get; set; }
+        public bool Checkbox {  get; private set; }
 
-        public Point Point { get; set; }
+        public Point Point { get; private set; }
 
         public WayPoint(Point point)
         {

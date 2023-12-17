@@ -26,7 +26,5 @@ namespace TransportManagementSystem
             Console.Clear() ;
             Console.WriteLine("Пункт добавлен");
         }
-
-
     }
 }

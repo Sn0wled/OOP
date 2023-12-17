@@ -6,7 +6,7 @@
         public PointsSystem PointsSystem { get; init; }
         public TransportSystem TransportSystem { get; init; }
         public RouteSystem RouteSystem { get; init; }
-        public User? User { get; set; }
+        private User? user;
 
         public TransportManagementSystem()
         {
@@ -19,13 +19,13 @@
         // Вход в систему
         public void LogIn()
         {
-            while (User == null)
+            while (user == null)
             {
-                User = UserSystem.LogIn();
-                if (User != null)
+                user = UserSystem.LogIn();
+                if (user != null)
                 {
                     Console.WriteLine("Вы успешно вошли");
-                    User.Menu(this);
+                    user.Menu(this);
                     break;
                 }
                 else
@@ -60,7 +60,7 @@
         // Выход из системы
         public void LogOut()
         {
-            User = null;
+            user = null;
         }
     }
 }

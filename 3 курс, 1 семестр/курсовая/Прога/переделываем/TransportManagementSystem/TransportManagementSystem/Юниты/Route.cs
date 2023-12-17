@@ -4,14 +4,16 @@ namespace TransportManagementSystem
 {
     internal class Route : Unit
     {
-        public string Name { get; set; }
+
         List<WayPoint> wayPoints;
+        protected string name;
+
         public Driver? Driver { get; set; }
 
         public Route(string name)
         {
             wayPoints = new();
-            Name = name;
+            this.name = name;
         }
         public bool IsEmpty()
         {
@@ -20,7 +22,7 @@ namespace TransportManagementSystem
         public override void ShowUnit()
         {
             base.ShowUnit();
-            Console.WriteLine($"Название: {Name}");
+            Console.WriteLine($"Название: {name}");
             string state = Driver is null ? "Свободен" : "Выполняется";
             Console.WriteLine($"Статус: {state}");
         }
@@ -92,13 +94,12 @@ namespace TransportManagementSystem
                 Console.WriteLine("0. Вернуться назад");
                 s = Console.ReadLine()!;
                 Console.Clear();
-                int num;
                 switch (s)
                 {
                     case "0":
                         return;
                     case "1":
-                        Name = Program.EnterString("Введите новое название: ");
+                        name = Program.EnterString("Введите новое название: ");
                         Console.Clear();
                         Console.WriteLine("Название изменено");
                         break;

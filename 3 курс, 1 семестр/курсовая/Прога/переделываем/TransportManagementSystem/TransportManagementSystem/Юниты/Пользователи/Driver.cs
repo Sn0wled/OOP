@@ -61,41 +61,10 @@
                         tms.LogOut();
                         return;
                     case "1":
-                        if (Route is null)
-                            Console.WriteLine("Маршрут не задан");
-                        else
-                        {
-                            Route.Show();
-                            Console.WriteLine();
-                            Console.WriteLine("Нажмите любую кнопку");
-                            Console.ReadKey();
-                            Console.Clear();
-                        }
+                        ShowRoute();
                         break;
                     case "2":
-                        if (IsFree())
-                        {
-                            Console.Clear();
-                            Console.WriteLine("У вас нет маршрута");
-                        }
-                        else
-                        {
-                            WayPoint? wp = Route!.NextWayPoint();
-                            if (wp != null)
-                            {
-                                wp.ShowWayPoint();
-                                Console.WriteLine();
-                                Console.WriteLine("Нажмите любую кнопку");
-                                Console.ReadKey();
-                                Console.Clear();
-                            }
-                            else
-                            {
-                                Console.WriteLine("Последний пункт маршрута достигнут.");
-                                Console.WriteLine("Завершите маршрут.");
-                            }
-                        }
-
+                        ShowNextWayPoint();
                         break;
                     case "3":
                         Drive();
@@ -111,6 +80,47 @@
                         break;
                 }
             }
+        }
+
+        public void ShowRoute()
+        {
+            if (Route is null)
+                Console.WriteLine("Маршрут не задан");
+            else
+            {
+                Route.Show();
+                Console.WriteLine();
+                Console.WriteLine("Нажмите любую кнопку");
+                Console.ReadKey();
+                Console.Clear();
+            }
+        }
+
+        public void ShowNextWayPoint()
+        {
+            if (IsFree())
+            {
+                Console.Clear();
+                Console.WriteLine("У вас нет маршрута");
+            }
+            else
+            {
+                WayPoint? wp = Route!.NextWayPoint();
+                if (wp != null)
+                {
+                    wp.ShowWayPoint();
+                    Console.WriteLine();
+                    Console.WriteLine("Нажмите любую кнопку");
+                    Console.ReadKey();
+                    Console.Clear();
+                }
+                else
+                {
+                    Console.WriteLine("Последний пункт маршрута достигнут.");
+                    Console.WriteLine("Завершите маршрут.");
+                }
+            }
+
         }
 
         public void MarkPoint()
@@ -172,6 +182,7 @@
                 Console.WriteLine("Вы приехали");
             }
         }
+
         public bool IsFree()
         {
             return Route is null; ;

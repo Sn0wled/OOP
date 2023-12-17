@@ -4,34 +4,33 @@ namespace TransportManagementSystem
 {
     internal class Transport : Unit
     {
-        public Coordinates Coords { get; set; }
-        public bool HasDriver { get; set; }
-        public string Model { get; set; }
+        protected Coordinates coords;
+        protected string model;
+        public bool HasDriver { get; private set; }
 
         public Transport(string model)
         {
-            Coords = new Coordinates(0, 0);
+            coords = new Coordinates(0, 0);
             HasDriver = false;
-            Model = model;
+            this.model = model;
         }
-
 
         public void Drive()
         {
-            Coords = Coordinates.CreateCoords();
+            coords = Coordinates.CreateCoords();
         }
 
         public bool IsAtPoint(Point p)
         {
-            return p.Coords.IsEqual(Coords);
+            return p.Coords.IsEqual(coords);
         }
 
         public override void ShowUnit()
         {
             base.ShowUnit();
-            Console.WriteLine($"Модель: {Model}");
+            Console.WriteLine($"Модель: {model}");
             Console.WriteLine($"Координаты");
-            Coords.Show();
+            coords.Show();
             string sState = HasDriver ? "Занят" : "Свободен";
             Console.WriteLine($"Состояние: {sState}");
         }
@@ -48,7 +47,7 @@ namespace TransportManagementSystem
                 switch (s)
                 {
                     case "1":
-                        Model = Program.EnterString("Введине новую модель: ", minChars: 1);
+                        model = Program.EnterString("Введине новую модель: ", minChars: 1);
                         break;
                     case "0":
                         break;

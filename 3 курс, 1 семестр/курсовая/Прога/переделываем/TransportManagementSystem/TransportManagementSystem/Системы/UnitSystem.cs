@@ -4,8 +4,9 @@ namespace TransportManagementSystem
 {
     internal abstract class UnitSystem : IEnumerable
     {
-        int counter;
+        private int counter;
         protected List<Unit> units;
+
         public UnitSystem()
         {
             counter = 0;
@@ -113,7 +114,7 @@ namespace TransportManagementSystem
                 Console.WriteLine();
                 Console.WriteLine("Выберите действие:");
                 Console.WriteLine("1. Удалить");
-                if (unit is Route) 
+                if (unit is Route)
                     Console.WriteLine("2. Изменить маршрут");
                 else
                     Console.WriteLine("2. Изменить данные");
@@ -127,8 +128,9 @@ namespace TransportManagementSystem
                         DelUnit(unit);
                         Console.Clear();
                         Console.WriteLine("Удаление завершено");
-                        if (unit is Route r && r.Driver != null) {
-                            r.Driver.Route= null;
+                        if (unit is Route r && r.Driver != null)
+                        {
+                            r.Driver.Route = null;
                             r.Driver = null;
                         }
                         return;
@@ -140,7 +142,7 @@ namespace TransportManagementSystem
                         break;
                 }
             }
-            Console.Clear() ;
+            Console.Clear();
         }
 
         IEnumerator IEnumerable.GetEnumerator()

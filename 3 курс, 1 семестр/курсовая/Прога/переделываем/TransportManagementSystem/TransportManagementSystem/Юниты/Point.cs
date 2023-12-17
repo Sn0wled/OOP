@@ -7,22 +7,15 @@ namespace TransportManagementSystem
     {
         public Coordinates Coords { get; set; }
 
-        public string Name { get; set; }
+        protected string Name { get; set; }
 
-        public string Description{ get; set; }
+        protected string Description{ get; set; }
 
         public Point(Coordinates coords, string name, string description)
         {
             this.Coords = coords;
             this.Name = name;
             this.Description = description;
-        }
-
-        public Point(Point p)
-        {
-            Coords = p.Coords;
-            Name = p.Name;
-            Description = p.Description;
         }
 
         public override void ShowUnit()

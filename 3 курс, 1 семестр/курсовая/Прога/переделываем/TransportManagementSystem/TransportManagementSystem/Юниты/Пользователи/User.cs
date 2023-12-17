@@ -4,11 +4,11 @@
     {
         public string Login { get; set; }
         public string Password { get; set; }
-        public string FName { get; set; }
-        public string LName { get; set; }
-        public string PName { get; set; }
-        public int Age { get; set; }
-        public User(string login, string password, string fName, string lName, string pName, int age)
+        protected string FName { get; set; }
+        protected string LName { get; set; }
+        protected string PName { get; set; }
+        protected int Age { get; set; }
+        protected User(string login, string password, string fName, string lName, string pName, int age)
         {
             Login = login;
             Password = password;
@@ -84,7 +84,9 @@
                             Age = age;
                         break;
                     case "5":
-                        Login = Program.EnterString("Введите новый логин: ", "Логин должен содержать не менее 6 символов", 6);
+                        string login = Program.EnterString("Введите новый логин: ", "Логин должен содержать не менее 6 символов", 6);
+                        if (tms!.UserSystem.IsLoginFree(login)) Login = login;
+                        else Console.WriteLine("Данный логин уже занят");
                         break;
                     case "6":
                         Password = Program.EnterString("Введите новый пароль: ", "Пароль должен содержать не менее 6 символов", 6);
