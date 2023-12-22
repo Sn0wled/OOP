@@ -1,0 +1,53 @@
+{
+	"_type": "UMLClass",
+	"_id": "AAAAAAGMj+OY6DtnGlQ=",
+	"_parent": {
+		"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+	},
+	"name": "TransportationSystem",
+	"ownedElements": [
+		{
+			"_type": "UMLAssociation",
+			"_id": "AAAAAAGMj/wcL6bddzk=",
+			"_parent": {
+				"$ref": "AAAAAAGMj+OY6DtnGlQ="
+			},
+			"end1": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAGMj/wcL6befjc=",
+				"_parent": {
+					"$ref": "AAAAAAGMj/wcL6bddzk="
+				},
+				"reference": {
+					"$ref": "AAAAAAGMj+OY6DtnGlQ="
+				},
+				"multiplicity": "1"
+			},
+			"end2": {
+				"_type": "UMLAssociationEnd",
+				"_id": "AAAAAAGMj/wcL6bfAj8=",
+				"_parent": {
+					"$ref": "AAAAAAGMj/wcL6bddzk="
+				},
+				"reference": {
+					"$ref": "AAAAAAGMj/h2YqTC2KE="
+				},
+				"aggregation": "composite",
+				"multiplicity": "1"
+			}
+		},
+		{
+			"_type": "UMLGeneralization",
+			"_id": "AAAAAAGMj/1WJKyzWO4=",
+			"_parent": {
+				"$ref": "AAAAAAGMj+OY6DtnGlQ="
+			},
+			"source": {
+				"$ref": "AAAAAAGMj+OY6DtnGlQ="
+			},
+			"target": {
+				"$ref": "AAAAAAGMj/YSDKRtB+I="
+			}
+		}
+	]
+}
