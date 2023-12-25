@@ -96,6 +96,7 @@ public class Transportation : UniqueObject
     {
         if (dTList.Count == 0 || dTList.Last().Status != Status.NotStarted)
         {
+            dTList.Last()?.Cancel();
             return false;
         }
         else

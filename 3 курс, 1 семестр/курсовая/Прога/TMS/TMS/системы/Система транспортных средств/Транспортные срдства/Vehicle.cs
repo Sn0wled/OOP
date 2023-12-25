@@ -3,12 +3,12 @@ public abstract class Vehicle : UniqueObject {
 
     public Vehicle(string name) {
         this.name = name;
-        coords = new(0, 0);
+        Coords = new(0, 0);
     }
 
     protected string name;
 
-    protected Coordinates coords;
+    public Coordinates Coords { get; protected set; }
 
     public Driver? Driver { get; set; }
 
@@ -21,12 +21,12 @@ public abstract class Vehicle : UniqueObject {
         base.ShowObject();
         Console.WriteLine($"Модель: {name}");
         Console.WriteLine("Координаты:");
-        coords.ShowInfo();
+        Coords.ShowInfo();
     }
 
     public virtual void Move(Coordinates coords)
     {
-        this.coords = coords;
+        this.Coords = coords;
         Console.WriteLine("Вы прибыли");
         DTransportation?.TryStart(coords);
         DTransportation?.TryEnd(coords);

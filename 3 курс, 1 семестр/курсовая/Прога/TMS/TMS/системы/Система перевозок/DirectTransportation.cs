@@ -31,6 +31,7 @@ public class DirectTransportation {
     public void IssueDT()
     {
         Vehicle.DTransportation = this;
+        TryStart(Vehicle.Coords);
     }
 
     public void Cancel() {
