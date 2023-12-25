@@ -30,7 +30,7 @@ public class TransportManagementSystem
                 "0. Закрыть программу");
             s = Console.ReadLine()!;
             Console.Clear();
-            switch(s)
+            switch (s)
             {
                 case "0":
                     return;
@@ -168,7 +168,7 @@ public class TransportManagementSystem
                     break;
             }
         } while (s != "0");
-        
+
     }
 
     protected void ShowLists()
@@ -331,7 +331,12 @@ public class TransportManagementSystem
         Transportation? transportation = tSystem.FindObject(id) as Transportation;
         if (transportation is not null)
         {
-            if (transportation.Status != Status.NotStarted)
+
+            if (transportation.IsEmpty())
+            {
+                Console.WriteLine("Перевозка пуста");
+            }
+            else if (transportation.Status != Status.NotStarted)
             {
                 Console.WriteLine("Перевозка уже была начата");
             }
@@ -518,7 +523,7 @@ public class TransportManagementSystem
                 {
                     Console.WriteLine("Транспортное средство с данным id не найдено");
                 }
-                 else if (veh.Driver != null)
+                else if (veh.Driver != null)
                 {
                     Console.WriteLine("У данного транспортного средства уже есть водитель");
                 }

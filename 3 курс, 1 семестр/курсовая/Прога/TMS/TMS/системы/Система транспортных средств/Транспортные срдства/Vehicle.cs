@@ -14,13 +14,14 @@ public abstract class Vehicle : UniqueObject {
 
     public DirectTransportation? DTransportation { get; set; }
 
-    public override void ShowObject() {
+    public override void ShowObject()
+    {
+        Driver?.ShowObject();
+        Console.WriteLine("\nТС");
         base.ShowObject();
         Console.WriteLine($"Модель: {name}");
-        if ( Driver != null )
-        {
-            Driver.ShowObject();
-        }
+        Console.WriteLine("Координаты:");
+        coords.ShowInfo();
     }
 
     public virtual void Move(Coordinates coords)

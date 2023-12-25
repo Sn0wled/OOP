@@ -19,12 +19,11 @@ public class DirectTransportation {
     protected Transportation transportation;
 
     public void ShowInfo() {
+        Console.WriteLine($"Статус: {Status}\n");
         Console.Write($"Начальная точка: ");
         startPoint.ShowInfo();
         Console.Write($"\nКонечная точка: ");
         EndPoint.ShowInfo();
-        Console.WriteLine("\nИсполняющий водитель:");
-        Vehicle.Driver?.ShowObject();
         Console.WriteLine("\nИсполняющее транспортное средство:");
         Vehicle.ShowObject();
     }
@@ -44,6 +43,7 @@ public class DirectTransportation {
         if (startPoint.IsPoint(coords) && Status == Status.NotStarted)
         {
             Status = Status.Started;
+            Console.WriteLine("Перевозка началась\n");
             return true;
         }
         return false;
@@ -54,6 +54,7 @@ public class DirectTransportation {
         if (EndPoint.IsPoint(coords))
         {
             Status = Status.Finished;
+            Console.WriteLine("Перевозка закончилась\n");
             transportation.StartNextDT();
             Vehicle.DTransportation = null;
             return true;

@@ -19,6 +19,8 @@ public class Transportation : UniqueObject
     {
         Console.WriteLine($"Перевозка \"{name}\"\n");
         base.ShowObject();
+        Console.WriteLine($"\nСтатус: {Status}\n");
+        Console.WriteLine($"\n{string.Concat(Enumerable.Repeat("-", 20))}\n"); // разделитель
         for (int i = 0; i < dTList.Count; i++)
         {
             Console.WriteLine($"Часть {i + 1}");
@@ -99,7 +101,8 @@ public class Transportation : UniqueObject
         else
         {
             dTList.RemoveAt(dTList.Count - 1);
-            if (dTList.Last().Status == Status.Finished)
+            if (dTList.Count == 0) return true;
+            if (dTList.Last()?.Status == Status.Finished)
             {
                 Status = Status.Finished;
             }

@@ -15,4 +15,12 @@ public class Coordinates {
         Console.WriteLine($"Широта: {latitude}, Долгота: {longitude}");
     }
 
+    public override bool Equals(object? obj)
+    {
+        if (obj is Coordinates c)
+        {
+            return (longitude == c.longitude && latitude == c.latitude);
+        }
+        return false;
+    }
 }
