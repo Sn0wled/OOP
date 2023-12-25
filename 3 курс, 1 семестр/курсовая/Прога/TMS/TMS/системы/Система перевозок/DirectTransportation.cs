@@ -55,8 +55,8 @@ public class DirectTransportation {
         {
             Status = Status.Finished;
             Console.WriteLine("Перевозка закончилась\n");
-            transportation.StartNextDT();
             Vehicle.DTransportation = null;
+            transportation.StartNextDT();
             return true;
         }
         return false;
