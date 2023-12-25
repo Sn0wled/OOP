@@ -1,0 +1,29 @@
+D:\c++ тесты\TMS\TMS\bin\Debug\net6.0\TMS.exe
+D:\c++ тесты\TMS\TMS\bin\Debug\net6.0\TMS.deps.json
+D:\c++ тесты\TMS\TMS\bin\Debug\net6.0\TMS.runtimeconfig.json
+D:\c++ тесты\TMS\TMS\bin\Debug\net6.0\TMS.dll
+D:\c++ тесты\TMS\TMS\bin\Debug\net6.0\TMS.pdb
+D:\c++ тесты\TMS\TMS\obj\Debug\net6.0\TMS.GeneratedMSBuildEditorConfig.editorconfig
+D:\c++ тесты\TMS\TMS\obj\Debug\net6.0\TMS.AssemblyInfoInputs.cache
+D:\c++ тесты\TMS\TMS\obj\Debug\net6.0\TMS.AssemblyInfo.cs
+D:\c++ тесты\TMS\TMS\obj\Debug\net6.0\TMS.csproj.CoreCompileInputs.cache
+D:\c++ тесты\TMS\TMS\obj\Debug\net6.0\TMS.dll
+D:\c++ тесты\TMS\TMS\obj\Debug\net6.0\refint\TMS.dll
+D:\c++ тесты\TMS\TMS\obj\Debug\net6.0\TMS.pdb
+D:\c++ тесты\TMS\TMS\obj\Debug\net6.0\TMS.genruntimeconfig.cache
+D:\c++ тесты\TMS\TMS\obj\Debug\net6.0\ref\TMS.dll
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TMS\TMS\bin\Debug\net6.0\TMS.exe
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TMS\TMS\bin\Debug\net6.0\TMS.deps.json
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TMS\TMS\bin\Debug\net6.0\TMS.runtimeconfig.json
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TMS\TMS\bin\Debug\net6.0\TMS.dll
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TMS\TMS\bin\Debug\net6.0\TMS.pdb
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TMS\TMS\obj\Debug\net6.0\TMS.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TMS\TMS\obj\Debug\net6.0\TMS.AssemblyInfoInputs.cache
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TMS\TMS\obj\Debug\net6.0\TMS.AssemblyInfo.cs
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TMS\TMS\obj\Debug\net6.0\TMS.csproj.CoreCompileInputs.cache
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TMS\TMS\obj\Debug\net6.0\TMS.sourcelink.json
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TMS\TMS\obj\Debug\net6.0\TMS.dll
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TMS\TMS\obj\Debug\net6.0\refint\TMS.dll
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TMS\TMS\obj\Debug\net6.0\TMS.pdb
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TMS\TMS\obj\Debug\net6.0\TMS.genruntimeconfig.cache
+D:\OOP\3 курс, 1 семестр\курсовая\Прога\TMS\TMS\obj\Debug\net6.0\ref\TMS.dll
