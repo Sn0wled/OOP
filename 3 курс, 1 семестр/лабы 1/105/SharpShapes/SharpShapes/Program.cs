@@ -126,8 +126,4 @@ interface IDraw3D
     void Draw();
 }
 
-class Person<T>
-{
-    public T ID { get; set; }
-    string Name { get; set; }
-}
+
