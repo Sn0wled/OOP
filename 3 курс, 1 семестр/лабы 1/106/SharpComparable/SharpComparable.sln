@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpComparable", "SharpComparable\SharpComparable.csproj", "{A634E044-CB1A-4D23-BA2B-377CEB6E0730}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A634E044-CB1A-4D23-BA2B-377CEB6E0730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A634E044-CB1A-4D23-BA2B-377CEB6E0730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A634E044-CB1A-4D23-BA2B-377CEB6E0730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A634E044-CB1A-4D23-BA2B-377CEB6E0730}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84E5EF3D-D7B2-477A-8070-EC1150F06A14}
+	EndGlobalSection
+EndGlobal
