@@ -1,4 +1,4 @@
-namespace Domino
+namespace Backgammon
 {
     public partial class Form1 : Form
     {

@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OOP\\3 курс, 1 семестр\\HW\\Domino\\Domino\\Domino.csproj",
-      "projectName": "Domino",
-      "projectPath": "D:\\OOP\\3 курс, 1 семестр\\HW\\Domino\\Domino\\Domino.csproj",
+      "projectUniqueName": "D:\\OOP\\3 курс, 1 семестр\\HW\\Domino\\Domino\\Backgammon.csproj",
+      "projectName": "Backgammon",
+      "projectPath": "D:\\OOP\\3 курс, 1 семестр\\HW\\Domino\\Domino\\Backgammon.csproj",
       "packagesPath": "C:\\Users\\xxxde\\.nuget\\packages\\",
       "outputPath": "D:\\OOP\\3 курс, 1 семестр\\HW\\Domino\\Domino\\obj\\",
       "projectStyle": "PackageReference",

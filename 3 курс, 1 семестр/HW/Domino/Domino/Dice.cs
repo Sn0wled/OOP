@@ -1,4 +1,4 @@
-﻿namespace Domino
+﻿namespace Backgammon
 {
     internal class Dice
     {
