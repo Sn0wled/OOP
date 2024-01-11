@@ -1,0 +1,15 @@
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpPointDelegate\SharpPointDelegate\bin\Debug\net6.0\SharpPointDelegate.exe
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpPointDelegate\SharpPointDelegate\bin\Debug\net6.0\SharpPointDelegate.deps.json
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpPointDelegate\SharpPointDelegate\bin\Debug\net6.0\SharpPointDelegate.runtimeconfig.json
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpPointDelegate\SharpPointDelegate\bin\Debug\net6.0\SharpPointDelegate.dll
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpPointDelegate\SharpPointDelegate\bin\Debug\net6.0\SharpPointDelegate.pdb
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpPointDelegate\SharpPointDelegate\obj\Debug\net6.0\SharpPointDelegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpPointDelegate\SharpPointDelegate\obj\Debug\net6.0\SharpPointDelegate.AssemblyInfoInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpPointDelegate\SharpPointDelegate\obj\Debug\net6.0\SharpPointDelegate.AssemblyInfo.cs
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpPointDelegate\SharpPointDelegate\obj\Debug\net6.0\SharpPointDelegate.csproj.CoreCompileInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpPointDelegate\SharpPointDelegate\obj\Debug\net6.0\SharpPointDelegate.sourcelink.json
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpPointDelegate\SharpPointDelegate\obj\Debug\net6.0\SharpPointDelegate.dll
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpPointDelegate\SharpPointDelegate\obj\Debug\net6.0\refint\SharpPointDelegate.dll
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpPointDelegate\SharpPointDelegate\obj\Debug\net6.0\SharpPointDelegate.pdb
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpPointDelegate\SharpPointDelegate\obj\Debug\net6.0\SharpPointDelegate.genruntimeconfig.cache
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpPointDelegate\SharpPointDelegate\obj\Debug\net6.0\ref\SharpPointDelegate.dll

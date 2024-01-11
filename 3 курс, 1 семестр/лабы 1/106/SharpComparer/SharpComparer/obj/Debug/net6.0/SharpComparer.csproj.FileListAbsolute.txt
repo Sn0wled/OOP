@@ -1,0 +1,15 @@
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparer\SharpComparer\bin\Debug\net6.0\SharpComparer.exe
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparer\SharpComparer\bin\Debug\net6.0\SharpComparer.deps.json
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparer\SharpComparer\bin\Debug\net6.0\SharpComparer.runtimeconfig.json
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparer\SharpComparer\bin\Debug\net6.0\SharpComparer.dll
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparer\SharpComparer\bin\Debug\net6.0\SharpComparer.pdb
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparer\SharpComparer\obj\Debug\net6.0\SharpComparer.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparer\SharpComparer\obj\Debug\net6.0\SharpComparer.AssemblyInfoInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparer\SharpComparer\obj\Debug\net6.0\SharpComparer.AssemblyInfo.cs
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparer\SharpComparer\obj\Debug\net6.0\SharpComparer.csproj.CoreCompileInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparer\SharpComparer\obj\Debug\net6.0\SharpComparer.sourcelink.json
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparer\SharpComparer\obj\Debug\net6.0\SharpComparer.dll
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparer\SharpComparer\obj\Debug\net6.0\refint\SharpComparer.dll
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparer\SharpComparer\obj\Debug\net6.0\SharpComparer.pdb
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparer\SharpComparer\obj\Debug\net6.0\SharpComparer.genruntimeconfig.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparer\SharpComparer\obj\Debug\net6.0\ref\SharpComparer.dll

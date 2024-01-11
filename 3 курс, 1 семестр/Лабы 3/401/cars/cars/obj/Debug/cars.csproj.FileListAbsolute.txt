@@ -1,0 +1,10 @@
+D:\OOP\3 курс, 1 семестр\Лабы 3\401\cars\cars\bin\Debug\cars.exe.config
+D:\OOP\3 курс, 1 семестр\Лабы 3\401\cars\cars\bin\Debug\cars.exe
+D:\OOP\3 курс, 1 семестр\Лабы 3\401\cars\cars\bin\Debug\cars.pdb
+D:\OOP\3 курс, 1 семестр\Лабы 3\401\cars\cars\bin\Debug\carlib.dll
+D:\OOP\3 курс, 1 семестр\Лабы 3\401\cars\cars\bin\Debug\carlib.pdb
+D:\OOP\3 курс, 1 семестр\Лабы 3\401\cars\cars\obj\Debug\cars.csproj.AssemblyReference.cache
+D:\OOP\3 курс, 1 семестр\Лабы 3\401\cars\cars\obj\Debug\cars.csproj.CoreCompileInputs.cache
+D:\OOP\3 курс, 1 семестр\Лабы 3\401\cars\cars\obj\Debug\cars.csproj.CopyComplete
+D:\OOP\3 курс, 1 семестр\Лабы 3\401\cars\cars\obj\Debug\cars.exe
+D:\OOP\3 курс, 1 семестр\Лабы 3\401\cars\cars\obj\Debug\cars.pdb

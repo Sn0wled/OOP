@@ -1,0 +1,15 @@
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpWasher\SharpWasher\bin\Debug\net6.0\SharpWasher.exe
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpWasher\SharpWasher\bin\Debug\net6.0\SharpWasher.deps.json
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpWasher\SharpWasher\bin\Debug\net6.0\SharpWasher.runtimeconfig.json
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpWasher\SharpWasher\bin\Debug\net6.0\SharpWasher.dll
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpWasher\SharpWasher\bin\Debug\net6.0\SharpWasher.pdb
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpWasher\SharpWasher\obj\Debug\net6.0\SharpWasher.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpWasher\SharpWasher\obj\Debug\net6.0\SharpWasher.AssemblyInfoInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpWasher\SharpWasher\obj\Debug\net6.0\SharpWasher.AssemblyInfo.cs
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpWasher\SharpWasher\obj\Debug\net6.0\SharpWasher.csproj.CoreCompileInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpWasher\SharpWasher\obj\Debug\net6.0\SharpWasher.sourcelink.json
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpWasher\SharpWasher\obj\Debug\net6.0\SharpWasher.dll
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpWasher\SharpWasher\obj\Debug\net6.0\refint\SharpWasher.dll
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpWasher\SharpWasher\obj\Debug\net6.0\SharpWasher.pdb
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpWasher\SharpWasher\obj\Debug\net6.0\SharpWasher.genruntimeconfig.cache
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpWasher\SharpWasher\obj\Debug\net6.0\ref\SharpWasher.dll

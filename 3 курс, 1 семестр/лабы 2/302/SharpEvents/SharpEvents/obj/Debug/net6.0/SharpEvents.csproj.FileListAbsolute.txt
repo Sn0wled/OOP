@@ -1,0 +1,15 @@
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEvents\SharpEvents\bin\Debug\net6.0\SharpEvents.exe
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEvents\SharpEvents\bin\Debug\net6.0\SharpEvents.deps.json
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEvents\SharpEvents\bin\Debug\net6.0\SharpEvents.runtimeconfig.json
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEvents\SharpEvents\bin\Debug\net6.0\SharpEvents.dll
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEvents\SharpEvents\bin\Debug\net6.0\SharpEvents.pdb
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEvents\SharpEvents\obj\Debug\net6.0\SharpEvents.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEvents\SharpEvents\obj\Debug\net6.0\SharpEvents.AssemblyInfoInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEvents\SharpEvents\obj\Debug\net6.0\SharpEvents.AssemblyInfo.cs
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEvents\SharpEvents\obj\Debug\net6.0\SharpEvents.csproj.CoreCompileInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEvents\SharpEvents\obj\Debug\net6.0\SharpEvents.sourcelink.json
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEvents\SharpEvents\obj\Debug\net6.0\SharpEvents.dll
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEvents\SharpEvents\obj\Debug\net6.0\refint\SharpEvents.dll
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEvents\SharpEvents\obj\Debug\net6.0\SharpEvents.pdb
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEvents\SharpEvents\obj\Debug\net6.0\SharpEvents.genruntimeconfig.cache
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEvents\SharpEvents\obj\Debug\net6.0\ref\SharpEvents.dll

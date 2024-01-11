@@ -1,0 +1,15 @@
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpCollections\SharpCollections\bin\Debug\net6.0\SharpCollections.exe
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpCollections\SharpCollections\bin\Debug\net6.0\SharpCollections.deps.json
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpCollections\SharpCollections\bin\Debug\net6.0\SharpCollections.runtimeconfig.json
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpCollections\SharpCollections\bin\Debug\net6.0\SharpCollections.dll
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpCollections\SharpCollections\bin\Debug\net6.0\SharpCollections.pdb
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpCollections\SharpCollections\obj\Debug\net6.0\SharpCollections.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpCollections\SharpCollections\obj\Debug\net6.0\SharpCollections.AssemblyInfoInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpCollections\SharpCollections\obj\Debug\net6.0\SharpCollections.AssemblyInfo.cs
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpCollections\SharpCollections\obj\Debug\net6.0\SharpCollections.csproj.CoreCompileInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpCollections\SharpCollections\obj\Debug\net6.0\SharpCollections.sourcelink.json
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpCollections\SharpCollections\obj\Debug\net6.0\SharpCollections.dll
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpCollections\SharpCollections\obj\Debug\net6.0\refint\SharpCollections.dll
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpCollections\SharpCollections\obj\Debug\net6.0\SharpCollections.pdb
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpCollections\SharpCollections\obj\Debug\net6.0\SharpCollections.genruntimeconfig.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpCollections\SharpCollections\obj\Debug\net6.0\ref\SharpCollections.dll

@@ -1,0 +1,15 @@
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpDelegate\SharpDelegate\bin\Debug\net6.0\SharpDelegate.exe
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpDelegate\SharpDelegate\bin\Debug\net6.0\SharpDelegate.deps.json
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpDelegate\SharpDelegate\bin\Debug\net6.0\SharpDelegate.runtimeconfig.json
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpDelegate\SharpDelegate\bin\Debug\net6.0\SharpDelegate.dll
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpDelegate\SharpDelegate\bin\Debug\net6.0\SharpDelegate.pdb
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpDelegate\SharpDelegate\obj\Debug\net6.0\SharpDelegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpDelegate\SharpDelegate\obj\Debug\net6.0\SharpDelegate.AssemblyInfoInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpDelegate\SharpDelegate\obj\Debug\net6.0\SharpDelegate.AssemblyInfo.cs
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpDelegate\SharpDelegate\obj\Debug\net6.0\SharpDelegate.csproj.CoreCompileInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpDelegate\SharpDelegate\obj\Debug\net6.0\SharpDelegate.sourcelink.json
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpDelegate\SharpDelegate\obj\Debug\net6.0\SharpDelegate.dll
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpDelegate\SharpDelegate\obj\Debug\net6.0\refint\SharpDelegate.dll
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpDelegate\SharpDelegate\obj\Debug\net6.0\SharpDelegate.pdb
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpDelegate\SharpDelegate\obj\Debug\net6.0\SharpDelegate.genruntimeconfig.cache
+D:\OOP\3 курс, 1 семестр\лабы 2\107\SharpDelegate\SharpDelegate\obj\Debug\net6.0\ref\SharpDelegate.dll

@@ -12,6 +12,8 @@ internal class Player
     {
         this.name = name;
         Color = color;
+        dice1 = new Dice();
+        dice2 = new Dice();
     }
     public void RollDices()
     {

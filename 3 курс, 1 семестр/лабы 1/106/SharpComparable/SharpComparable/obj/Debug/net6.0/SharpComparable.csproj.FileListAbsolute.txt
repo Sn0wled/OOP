@@ -1,0 +1,15 @@
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparable\SharpComparable\bin\Debug\net6.0\SharpComparable.exe
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparable\SharpComparable\bin\Debug\net6.0\SharpComparable.deps.json
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparable\SharpComparable\bin\Debug\net6.0\SharpComparable.runtimeconfig.json
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparable\SharpComparable\bin\Debug\net6.0\SharpComparable.dll
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparable\SharpComparable\bin\Debug\net6.0\SharpComparable.pdb
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparable\SharpComparable\obj\Debug\net6.0\SharpComparable.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparable\SharpComparable\obj\Debug\net6.0\SharpComparable.AssemblyInfoInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparable\SharpComparable\obj\Debug\net6.0\SharpComparable.AssemblyInfo.cs
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparable\SharpComparable\obj\Debug\net6.0\SharpComparable.csproj.CoreCompileInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparable\SharpComparable\obj\Debug\net6.0\SharpComparable.sourcelink.json
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparable\SharpComparable\obj\Debug\net6.0\SharpComparable.dll
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparable\SharpComparable\obj\Debug\net6.0\refint\SharpComparable.dll
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparable\SharpComparable\obj\Debug\net6.0\SharpComparable.pdb
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparable\SharpComparable\obj\Debug\net6.0\SharpComparable.genruntimeconfig.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpComparable\SharpComparable\obj\Debug\net6.0\ref\SharpComparable.dll

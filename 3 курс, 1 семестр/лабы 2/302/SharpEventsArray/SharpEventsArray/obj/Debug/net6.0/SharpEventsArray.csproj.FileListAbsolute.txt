@@ -1,0 +1,15 @@
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventsArray\SharpEventsArray\bin\Debug\net6.0\SharpEventsArray.exe
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventsArray\SharpEventsArray\bin\Debug\net6.0\SharpEventsArray.deps.json
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventsArray\SharpEventsArray\bin\Debug\net6.0\SharpEventsArray.runtimeconfig.json
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventsArray\SharpEventsArray\bin\Debug\net6.0\SharpEventsArray.dll
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventsArray\SharpEventsArray\bin\Debug\net6.0\SharpEventsArray.pdb
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventsArray\SharpEventsArray\obj\Debug\net6.0\SharpEventsArray.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventsArray\SharpEventsArray\obj\Debug\net6.0\SharpEventsArray.AssemblyInfoInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventsArray\SharpEventsArray\obj\Debug\net6.0\SharpEventsArray.AssemblyInfo.cs
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventsArray\SharpEventsArray\obj\Debug\net6.0\SharpEventsArray.csproj.CoreCompileInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventsArray\SharpEventsArray\obj\Debug\net6.0\SharpEventsArray.sourcelink.json
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventsArray\SharpEventsArray\obj\Debug\net6.0\SharpEventsArray.dll
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventsArray\SharpEventsArray\obj\Debug\net6.0\refint\SharpEventsArray.dll
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventsArray\SharpEventsArray\obj\Debug\net6.0\SharpEventsArray.pdb
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventsArray\SharpEventsArray\obj\Debug\net6.0\SharpEventsArray.genruntimeconfig.cache
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventsArray\SharpEventsArray\obj\Debug\net6.0\ref\SharpEventsArray.dll

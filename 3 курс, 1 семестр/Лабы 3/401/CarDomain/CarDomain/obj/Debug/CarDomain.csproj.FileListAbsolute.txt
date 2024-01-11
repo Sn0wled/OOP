@@ -1,0 +1,7 @@
+D:\OOP\3 курс, 1 семестр\Лабы 3\401\CarDomain\CarDomain\bin\Debug\CarDomain.exe.config
+D:\OOP\3 курс, 1 семестр\Лабы 3\401\CarDomain\CarDomain\bin\Debug\CarDomain.exe
+D:\OOP\3 курс, 1 семестр\Лабы 3\401\CarDomain\CarDomain\bin\Debug\CarDomain.pdb
+D:\OOP\3 курс, 1 семестр\Лабы 3\401\CarDomain\CarDomain\obj\Debug\CarDomain.csproj.AssemblyReference.cache
+D:\OOP\3 курс, 1 семестр\Лабы 3\401\CarDomain\CarDomain\obj\Debug\CarDomain.csproj.CoreCompileInputs.cache
+D:\OOP\3 курс, 1 семестр\Лабы 3\401\CarDomain\CarDomain\obj\Debug\CarDomain.exe
+D:\OOP\3 курс, 1 семестр\Лабы 3\401\CarDomain\CarDomain\obj\Debug\CarDomain.pdb

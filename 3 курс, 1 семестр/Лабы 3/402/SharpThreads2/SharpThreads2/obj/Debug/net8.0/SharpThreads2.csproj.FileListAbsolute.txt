@@ -1,0 +1,15 @@
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads2\SharpThreads2\bin\Debug\net8.0\SharpThreads2.exe
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads2\SharpThreads2\bin\Debug\net8.0\SharpThreads2.deps.json
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads2\SharpThreads2\bin\Debug\net8.0\SharpThreads2.runtimeconfig.json
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads2\SharpThreads2\bin\Debug\net8.0\SharpThreads2.dll
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads2\SharpThreads2\bin\Debug\net8.0\SharpThreads2.pdb
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads2\SharpThreads2\obj\Debug\net8.0\SharpThreads2.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads2\SharpThreads2\obj\Debug\net8.0\SharpThreads2.AssemblyInfoInputs.cache
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads2\SharpThreads2\obj\Debug\net8.0\SharpThreads2.AssemblyInfo.cs
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads2\SharpThreads2\obj\Debug\net8.0\SharpThreads2.csproj.CoreCompileInputs.cache
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads2\SharpThreads2\obj\Debug\net8.0\SharpThreads2.sourcelink.json
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads2\SharpThreads2\obj\Debug\net8.0\SharpThreads2.dll
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads2\SharpThreads2\obj\Debug\net8.0\refint\SharpThreads2.dll
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads2\SharpThreads2\obj\Debug\net8.0\SharpThreads2.pdb
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads2\SharpThreads2\obj\Debug\net8.0\SharpThreads2.genruntimeconfig.cache
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads2\SharpThreads2\obj\Debug\net8.0\ref\SharpThreads2.dll

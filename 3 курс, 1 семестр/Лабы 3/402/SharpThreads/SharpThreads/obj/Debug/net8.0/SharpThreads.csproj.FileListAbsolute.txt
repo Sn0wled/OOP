@@ -1,0 +1,15 @@
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads\SharpThreads\bin\Debug\net8.0\SharpThreads.exe
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads\SharpThreads\bin\Debug\net8.0\SharpThreads.deps.json
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads\SharpThreads\bin\Debug\net8.0\SharpThreads.runtimeconfig.json
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads\SharpThreads\bin\Debug\net8.0\SharpThreads.dll
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads\SharpThreads\bin\Debug\net8.0\SharpThreads.pdb
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads\SharpThreads\obj\Debug\net8.0\SharpThreads.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads\SharpThreads\obj\Debug\net8.0\SharpThreads.AssemblyInfoInputs.cache
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads\SharpThreads\obj\Debug\net8.0\SharpThreads.AssemblyInfo.cs
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads\SharpThreads\obj\Debug\net8.0\SharpThreads.csproj.CoreCompileInputs.cache
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads\SharpThreads\obj\Debug\net8.0\SharpThreads.sourcelink.json
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads\SharpThreads\obj\Debug\net8.0\SharpThreads.dll
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads\SharpThreads\obj\Debug\net8.0\refint\SharpThreads.dll
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads\SharpThreads\obj\Debug\net8.0\SharpThreads.pdb
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads\SharpThreads\obj\Debug\net8.0\SharpThreads.genruntimeconfig.cache
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\SharpThreads\SharpThreads\obj\Debug\net8.0\ref\SharpThreads.dll

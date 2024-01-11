@@ -1,0 +1,15 @@
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpClonable\SharpClonable\bin\Debug\net6.0\SharpClonable.exe
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpClonable\SharpClonable\bin\Debug\net6.0\SharpClonable.deps.json
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpClonable\SharpClonable\bin\Debug\net6.0\SharpClonable.runtimeconfig.json
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpClonable\SharpClonable\bin\Debug\net6.0\SharpClonable.dll
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpClonable\SharpClonable\bin\Debug\net6.0\SharpClonable.pdb
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpClonable\SharpClonable\obj\Debug\net6.0\SharpClonable.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpClonable\SharpClonable\obj\Debug\net6.0\SharpClonable.AssemblyInfoInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpClonable\SharpClonable\obj\Debug\net6.0\SharpClonable.AssemblyInfo.cs
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpClonable\SharpClonable\obj\Debug\net6.0\SharpClonable.csproj.CoreCompileInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpClonable\SharpClonable\obj\Debug\net6.0\SharpClonable.sourcelink.json
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpClonable\SharpClonable\obj\Debug\net6.0\SharpClonable.dll
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpClonable\SharpClonable\obj\Debug\net6.0\refint\SharpClonable.dll
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpClonable\SharpClonable\obj\Debug\net6.0\SharpClonable.pdb
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpClonable\SharpClonable\obj\Debug\net6.0\SharpClonable.genruntimeconfig.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpClonable\SharpClonable\obj\Debug\net6.0\ref\SharpClonable.dll

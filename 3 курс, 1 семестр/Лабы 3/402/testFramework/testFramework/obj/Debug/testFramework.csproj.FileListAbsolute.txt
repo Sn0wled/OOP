@@ -1,0 +1,7 @@
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\testFramework\testFramework\bin\Debug\testFramework.exe.config
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\testFramework\testFramework\bin\Debug\testFramework.exe
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\testFramework\testFramework\bin\Debug\testFramework.pdb
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\testFramework\testFramework\obj\Debug\testFramework.csproj.AssemblyReference.cache
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\testFramework\testFramework\obj\Debug\testFramework.csproj.CoreCompileInputs.cache
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\testFramework\testFramework\obj\Debug\testFramework.exe
+D:\OOP\3 курс, 1 семестр\Лабы 3\402\testFramework\testFramework\obj\Debug\testFramework.pdb

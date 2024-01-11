@@ -1,0 +1,15 @@
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpNumerable\SharpNumerable\bin\Debug\net6.0\SharpNumerable.exe
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpNumerable\SharpNumerable\bin\Debug\net6.0\SharpNumerable.deps.json
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpNumerable\SharpNumerable\bin\Debug\net6.0\SharpNumerable.runtimeconfig.json
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpNumerable\SharpNumerable\bin\Debug\net6.0\SharpNumerable.dll
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpNumerable\SharpNumerable\bin\Debug\net6.0\SharpNumerable.pdb
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpNumerable\SharpNumerable\obj\Debug\net6.0\SharpNumerable.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpNumerable\SharpNumerable\obj\Debug\net6.0\SharpNumerable.AssemblyInfoInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpNumerable\SharpNumerable\obj\Debug\net6.0\SharpNumerable.AssemblyInfo.cs
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpNumerable\SharpNumerable\obj\Debug\net6.0\SharpNumerable.csproj.CoreCompileInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpNumerable\SharpNumerable\obj\Debug\net6.0\SharpNumerable.sourcelink.json
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpNumerable\SharpNumerable\obj\Debug\net6.0\SharpNumerable.dll
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpNumerable\SharpNumerable\obj\Debug\net6.0\refint\SharpNumerable.dll
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpNumerable\SharpNumerable\obj\Debug\net6.0\SharpNumerable.pdb
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpNumerable\SharpNumerable\obj\Debug\net6.0\SharpNumerable.genruntimeconfig.cache
+D:\OOP\3 курс, 1 семестр\лабы 1\106\SharpNumerable\SharpNumerable\obj\Debug\net6.0\ref\SharpNumerable.dll

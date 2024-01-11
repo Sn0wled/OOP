@@ -1,0 +1,15 @@
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventInterface2\SharpEventInterface2\bin\Debug\net6.0\SharpEventInterface2.exe
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventInterface2\SharpEventInterface2\bin\Debug\net6.0\SharpEventInterface2.deps.json
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventInterface2\SharpEventInterface2\bin\Debug\net6.0\SharpEventInterface2.runtimeconfig.json
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventInterface2\SharpEventInterface2\bin\Debug\net6.0\SharpEventInterface2.dll
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventInterface2\SharpEventInterface2\bin\Debug\net6.0\SharpEventInterface2.pdb
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventInterface2\SharpEventInterface2\obj\Debug\net6.0\SharpEventInterface2.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventInterface2\SharpEventInterface2\obj\Debug\net6.0\SharpEventInterface2.AssemblyInfoInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventInterface2\SharpEventInterface2\obj\Debug\net6.0\SharpEventInterface2.AssemblyInfo.cs
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventInterface2\SharpEventInterface2\obj\Debug\net6.0\SharpEventInterface2.csproj.CoreCompileInputs.cache
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventInterface2\SharpEventInterface2\obj\Debug\net6.0\SharpEventInterface2.sourcelink.json
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventInterface2\SharpEventInterface2\obj\Debug\net6.0\SharpEventInterface2.dll
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventInterface2\SharpEventInterface2\obj\Debug\net6.0\refint\SharpEventInterface2.dll
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventInterface2\SharpEventInterface2\obj\Debug\net6.0\SharpEventInterface2.pdb
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventInterface2\SharpEventInterface2\obj\Debug\net6.0\SharpEventInterface2.genruntimeconfig.cache
+D:\OOP\3 курс, 1 семестр\лабы 2\302\SharpEventInterface2\SharpEventInterface2\obj\Debug\net6.0\ref\SharpEventInterface2.dll
