@@ -6,11 +6,9 @@ internal class test
 {
     public static void Main()
     {
-        Dice dice = new Dice();
-        for (int i = 0; i < 10; i++)
-        {
-            dice.Roll();
-            Console.WriteLine(dice.Value);
-        }
+        Board b = new Board();
+        Console.WriteLine(b);
+        b.Move(11, 22);
+        Console.WriteLine(b);
     }
 }
