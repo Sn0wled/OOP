@@ -15,7 +15,8 @@ internal class Program
             Console.WriteLine(product);
         }
         buyer.Cart.AddToCart(new CartUnit(shop.Products[1], 5));
-        Console.WriteLine("\nКорзина покупателя:");
+        Console.WriteLine($"\nДеньги покупателя: {buyer.Money}");
+        Console.WriteLine("Корзина покупателя:");
         foreach(CartUnit product in buyer.Cart.Products)
         {
             Console.WriteLine(product);

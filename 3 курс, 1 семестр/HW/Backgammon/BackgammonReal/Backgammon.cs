@@ -6,4 +6,5 @@ internal class Backgammon
     Player player1, player2;
     Player movePlayer; // ??
     int moveCounter = 0;
+
 }
