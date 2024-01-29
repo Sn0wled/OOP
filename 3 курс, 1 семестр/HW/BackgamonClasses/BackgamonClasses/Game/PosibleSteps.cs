@@ -5,10 +5,25 @@ internal class PosibleSteps
 {
     bool[,] steps;
     int fieldCount;
+
+    public bool this[int i, int j] { get { return steps[i, j]; } }
+
+    public bool this[int n]
+    {
+        get
+        {
+            for (int i = 0; i < fieldCount + 1; i++)
+            {
+                if (steps[n, i]) return true;
+            }
+            return false;
+        }
+    }
+
     public PosibleSteps(in Board board, in Color currentPlayer, in List<int> posibleStepLengths)
     {
         fieldCount = board.FieldsCount;
-        steps = new bool[fieldCount, fieldCount];
+        steps = new bool[fieldCount, fieldCount + 1];
         InitFalse();
     }
 
@@ -23,7 +38,7 @@ internal class PosibleSteps
         }
     }
 
-    public void FindSteps(in Board board, in Color currentPlayer, in List<int> posibleStepLengths)
+    public void FindSteps(in Board board, in Color currentPlayer, in List<int> posibleStepLengths, in int ableToRemoveFromBase)
     {
         InitFalse();
 
